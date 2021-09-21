@@ -19,6 +19,7 @@ public class Task05 {
             }
         }
         return "TRUE";
+
     }
 
     public static void main(String[] args) {
