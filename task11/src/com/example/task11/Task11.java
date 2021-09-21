@@ -7,8 +7,8 @@ public class Task11 {
         // TODO исправьте функцию, чтобы избежать накопления ошибки
 
         // Считаем проценты за год
-        sum = (float)(sum*Math.pow(1.0d+percent,12));
-        return sum;
+        float result = (float)(sum*Math.pow(1.0d+percent,12));
+        return result;
     }
 
     public static void main(String[] args) {
