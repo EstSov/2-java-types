@@ -5,7 +5,27 @@ public class Task04 {
     public static float calculate(int a, int b, String operation) {
 
         // TODO напишите здесь свою корректную реализацию этого метода, вместо сеществующей
-
+        float result = 0;
+        if (operation.equals("+"))
+        {
+            result = a+b;
+            return result;
+        }
+        if (operation.equals("-"))
+        {
+            result = a-b;
+            return result;
+        }
+        if (operation.equals("*"))
+        {
+            result = a*b;
+            return result;
+        }
+        if (operation.equals("/"))
+        {
+            result = (float)a/(float)b;
+            return result;
+        }
         return 0;
     }
 
